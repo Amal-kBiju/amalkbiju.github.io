@@ -103,9 +103,12 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-black text-white overflow-x-hidden">
-      {/* EmailJS Script */}
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <div style={{
+      minHeight: '100vh',
+      background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f172a 100%)',
+      color: 'white',
+      fontFamily: 'Arial, sans-serif'
+    }}>
       
       {/* Floating Background Elements */}
       <div style={{
